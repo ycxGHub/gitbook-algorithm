@@ -1,12 +1,14 @@
 # 归并排序
 
-归并排序是利用已有排序信息的一种方式，可以想象两个有序队列实现合并，先从A,B队列中各选取一个，选取其中较小的放入合并队列C中并从其相应队列中移除后依次取下个元素，再进行比较。直到所有元素都被合并完成
-
 {% hint style="info" %}
-归并排序是一种分而治之的思想，它是不稳定的，其复杂度为NlogN
+归并排序是不稳定的排序，其复杂度为NlogN
 {% endhint %}
 
-<pre class="language-java"><code class="lang-java"><strong>void sort(int[] arr,int lo,int hi) {
+归并排序是利用已有排序信息的一种方式，可以想象两个有序队列实现合并，先从A,B队列中各选取一个，选取其中较小的放入合并队列C中并从其相应队列中移除后依次取下个元素，再进行比较。直到所有元素都被合并完成
+
+<pre class="language-java"><code class="lang-java"><strong>
+</strong><strong>
+</strong><strong>void sort(int[] arr,int lo,int hi) {
 </strong>  if(hi&#x3C;=lo){
     return;
   }
